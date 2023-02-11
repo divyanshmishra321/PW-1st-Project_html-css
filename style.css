@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Common Tags  */
+body {
+  background-color: #faf7f2;
+  padding: 0 6vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: #7c83fd;
+  border: transparent;
+  border-radius: 2px;
+  padding: 3px 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid;
+  color: #7c83fd;
+}
+
+input {
+  width: 18vw;
+  padding: 2px 5px;
+  border: 1px solid #b0b1d6;
+  background-color: #faf7f2;
+  border-radius: 5px;
+  outline: 1px solid #7c83fd;
+}
+
+input:hover {
+}
+
+
+
+
+/* Class For Flex Display  */
+
+
+.listflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Header  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4vw;
+  padding: 0 20px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  color: #7c83fd;
+}
+.navbar ul li a:hover {
+  border-bottom: 2px solid #7c83fd;
+  font-weight: bolder;
+}
+
+/* Middel Section */
+
+span{
+    color: #c355f5;
+}
+.leftdiv{
+    color: #344fa1;
+}
+
+.chatbtn{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main-image{
+  /* width: 30vw; */
+  height: 70vh;
+  border-radius: 50%;
+  }
+
+.leftdiv{
+  padding: 10vw;
+}
+.leftdiv h1{
+  margin-bottom: 30px ;
+}
+
+/* Footer */
+
+.footer {
+  margin: 10px 2px;
+  color: #7c83fd;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4vw;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  color: #7c83fd;
+}
+.footer ul li a:hover {
+  color: #b0b1d6;
+}
+
+@media  (max-width:768px){
+
+  .main-image{
+    /* width: 30vw; */
+    height: 50vh;
+    border-radius: 50%;
+    }
+  
+}
+
+

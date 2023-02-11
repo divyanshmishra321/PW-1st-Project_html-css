@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PW html_css First Project</title>
 
-    <!-- External Fonts -->
-
 
     <!--External CSS  -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- External Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- Font Awesome Kit -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/e8393571a2.css" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/e8393571a2.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -20,50 +26,85 @@
 
 <body>
     <!-- header -->
-<header>
-    <!-- Logo  -->
-    <div class="logo">LOGO</div>
+    <header class="header">
 
-    <!-- Navigation Menu -->
-    <div class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+        <!-- Logo  -->
+        <div class="logo"><img src="" alt=""></div>
 
-    <!-- Search Menu & Login Button -->
+        <!-- Navigation Menu -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
 
-    <div class="nav_Search_menu">
-        <input type="text" placeholder="Search" class="searchbox">
+        <!-- Search Menu & Login Button -->
 
-        <button class="loginbtn">Login</button>
-    </div>
+        <div class="nav_Search_menu">
+            <input type="text" placeholder="Search" class="searchbox">
+         
+                <button class="loginbtn">Login</button>
+            
 
-</header>
+        </div>
 
-<!-- MAIN SECTION  -->
+    </header>
 
-
-<section>
-<!-- Left Div -->
-
-<div class="leftdiv">
-    <h1>Hello, I am a <span>Web Developer</span></h1>
-    <p>
-        I am aspiring <span>Full Stack Developer</span> who is currently workinga as <span>Freelancer</span> for <span>Natianal and International Clients.</span>
-    </p>
-</div>
-
-<!-- Left Div -->
-<div class="rightdiv">
-<img src="" alt="">
-</div>
+    <!-- MAIN SECTION  -->
 
 
-</section>
+    <section class="main-section listflex">
+        <!-- Left Div -->
+
+        <div class="leftdiv">
+            <h1>Hello, I am   <span>Divyansh Mishra </span>  <br></h1>
+            <p>
+                I am aspiring <span>Full Stack Developer <br> </span> who is currently workinga as <span>Freelancer</span> for
+                <span>National and International Clients.</span>
+            </p>
+        </div>
+
+        <!-- Left Div -->
+        <div class="rightdiv">
+            
+            <img class="main-image" src="assets\WhatsApp_Image_2021-08-13_at_10.44.33_PM-removebg-preview.png" alt="profile pic" >
+            <!-- Chat Button  -->
+            <div class=" chatbtn">
+                <button >Chat with Me</button>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footerdiv listflex ">
+            <!-- Footer Text -->
+            <p>
+                Copyright @ 2023- All Rights Reserved
+
+            </p>
+
+            <div class=" footermenu">
+                <ul class="listflex ">
+
+
+
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                    <li><a href=""><i class="fa-brands fa-square-github"></i></a></li>
+
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
